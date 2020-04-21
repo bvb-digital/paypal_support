@@ -10,10 +10,13 @@ import { mapActions } from 'vuex'
 
 export default {
   name: 'App',
+  mounted(){
+      this.getClientToken()
+  },
   components: {
   },
   methods: {
-    ...mapActions(['initPaypal'])
+    ...mapActions(['initPaypal', 'getClientToken'])
   }
 }
 </script>
