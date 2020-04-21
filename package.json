@@ -8,10 +8,10 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "@paypal/checkout-components": "^5.0.86",
     "axios": "^0.19.2",
     "braintree-web": "^3.60.0",
     "core-js": "^3.6.4",
-    "paypal-checkout": "^4.0.312",
     "vue": "^2.6.11",
     "vuex": "^3.1.3"
   },

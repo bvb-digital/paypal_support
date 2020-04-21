@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import Vuex from 'vuex'
 import axios from 'axios'
-import paypal from 'paypal-checkout'
+import paypal from '@paypal/checkout-components'
 import client from 'braintree-web/client'
 import paypalCheckout from 'braintree-web/paypal-checkout'
 
