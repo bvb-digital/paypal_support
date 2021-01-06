@@ -8,7 +8,7 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "braintree-web": "^3.60.0",
     "core-js": "^3.6.4",
     "paypal-checkout": "^4.0.312",
